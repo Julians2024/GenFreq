@@ -1,0 +1,21 @@
+/* src/App.css */
+body {
+    background-color: #e0f7fa; /* Color azul claro para el fondo general */
+    color: #004d40; /* Color verde oscuro para el texto */
+    font-family: 'Arial', sans-serif;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e0f7fa;
+}
+
+.App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

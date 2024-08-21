@@ -1,0 +1,13 @@
+/* WaveformSelector.css */
+.menu-item-content {
+    display: flex;
+    align-items: center;
+}
+
+.icon-container {
+    margin-right: 8px; /* Espacio entre el icono y la etiqueta */
+}
+
+.label {
+    font-size: 14px; /* Tamaño de la etiqueta */
+}

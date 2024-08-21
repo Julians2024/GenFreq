@@ -1,0 +1,31 @@
+/* src/styles/PowerSwitch.css */
+.power-switch {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #80cbc4; /* Color verde intermedio para el fondo */
+    border: 1px solid #004d40; /* Color verde oscuro para el borde */
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+    .power-switch .MuiTypography-root {
+        color: #004d40;
+    }
+
+    .power-switch .MuiSwitch-switchBase {
+        color: #ffeb3b; /* Color dorado para el interruptor */
+    }
+
+    .power-switch .MuiSwitch-track {
+        background-color: #004d40; /* Color verde oscuro para la pista */
+    }
+
+    .power-switch .MuiSwitch-colorPrimary.Mui-checked {
+        color: #ffeb3b; /* Color dorado cuando está encendido */
+    }
+
+        .power-switch .MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track {
+            background-color: #004d40; /* Color verde oscuro para la pista cuando está encendido */
+        }
